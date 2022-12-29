@@ -1,0 +1,60 @@
+.main-page-panel {
+  display: flex;
+  height: 130px;
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.38);
+  .icons {
+    display: flex;
+
+    margin: 30px 60px 30px auto;
+    .but2 {
+      margin-left: 20px;
+    }
+    img {
+      height: 50px;
+    }
+  }
+  .add-panel {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 0px 30px 30px;
+    .add {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      width: 150px;
+      height: 50px;
+      font-size: 20px;
+    }
+    img {
+      height: 40px;
+    }
+    .dropdown {
+      margin-left: 30px;
+      border: 1px solid grey;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      padding: 8px 12px;
+    }
+
+    li:hover {
+      background-color: rgba(0, 0, 0, 0.14);
+      cursor: pointer;
+    }
+  }
+  button {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.38);
+    &:hover {
+      background-color: #c5c5c5;
+      box-shadow: 1px 1px 4px 5px rgba(0, 0, 0, 0.38);
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.folders {
+  display: flex;
+  flex-wrap: wrap;;
+  .folder {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 65px;
+    img {
+      align-items: center;
+    }
+  }
+}
+
+.folder-files {
+  h1 {
+    margin-left: 40px;
+    color: #6600a8;
+  }
+  button {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.38);
+
+    &:hover {
+      background-color: #c5c5c5;
+      box-shadow: 1px 1px 4px 5px rgba(0, 0, 0, 0.38);
+    }
+  }
+}
+
+.flex {
+  display: flex;
+}
